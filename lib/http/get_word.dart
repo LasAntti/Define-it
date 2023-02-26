@@ -14,6 +14,7 @@ String? finalWord;
 String? results;
 String? definition; 
 
+//WordsAPI keys here
 final _headers = {
         'X-RapidAPI-Key': '',
         'X-RapidAPI-Host': ''
