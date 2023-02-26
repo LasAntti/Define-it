@@ -8,7 +8,7 @@ This is a dictionary application, in which you can see definitions for random wo
 # Setting up
 1. Clone repository
 2. Run 'flutter pub get'
-3. This application uses 2 APIs, WordsAPI : https://www.wordsapi.com/ , and Unsplash API: https://unsplash.com/developers. ***You will need to have a registered account with both of these APIs, in order to get API keys***.
+3. This application uses 2 APIs, WordsAPI : https://www.wordsapi.com/ , and Unsplash API: https://unsplash.com/developers. ***You will need to have a registered account with both of these APIs, in order to get API keys***. Both have free plans available, but WordsAPI still requires a payment card of some sort.
 4. After getting keys for both of these APIs, you will need to copy/paste them in to lib/http/get_word.dart (for the WordsAPI) and lib/http/get_image.dart (for Unsplash API).
 
 Unsplash API allows you to make 50 requests/hour in their free plan, while WordsAPI allows for 2500 requests/24h (as of February 2023). 
