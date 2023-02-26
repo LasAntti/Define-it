@@ -9,6 +9,7 @@ String? artist;
 String artistLink = 'www.unsplash.com';
 late bool _isLoading;
 
+// Unsplash key here
 final _authorization = {
       'Authorization': '',
     };
