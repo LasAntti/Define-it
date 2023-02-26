@@ -11,7 +11,7 @@ late bool _isLoading;
 
 // Unsplash key here
 final _authorization = {
-      'Authorization': '',
+      'Authorization': 'Client-ID ',
     };
 
 class GetImage extends StatefulWidget {
